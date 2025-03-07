@@ -1,1 +1,1 @@
-# Trabajo4-RNAB-Construcci-n-de-un-Generador-de-Contenido-Educativo-basado-en-LLM
+# Trabajo4-RNAB-Construccion-de-un-Generador-de-Contenido-Educativo-basado-en-LLM
