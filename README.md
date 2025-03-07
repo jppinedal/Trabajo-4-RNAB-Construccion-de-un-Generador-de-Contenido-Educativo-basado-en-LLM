@@ -67,3 +67,21 @@ Un **Large Language Model (LLM)** es un modelo de inteligencia artificial basado
 Se desarrollará un **agente inteligente** capaz de generar materiales didácticos basados en programas de curso universitarios, utilizando **Grandes Modelos de Lenguaje (LLMs)**. Este agente tomará como entrada documentos en formatos comunes (**PDF, TXT, DOCX**) y producirá contenido estructurado como **notas de clase, problemas de práctica, preguntas de discusión, objetivos de aprendizaje y lecturas recomendadas**.
 
 El sistema se implementará en **Python**, aprovechando **PyTorch** para componentes personalizados y garantizando un manejo eficiente de errores y tokens en las llamadas a la API. Además, se diseñará un **marco de evaluación** que permitirá medir la calidad, relevancia y coherencia del contenido generado.
+
+## **3.1 Modo de uso**
+- Subir el documento
+   - Asegúrate de que el archivo se haya cargado en la carpeta.
+   - En el código, el documento se sube a través de la API de Google Gemini
+- Generar un resumen del PDF
+   - Una vez que el documento se ha subido, el código solicita a Gemini que genere un resumen del contenido
+     
+- Generar contenido educativo
+  - El código toma el resumen y lo usa como entrada para crear un material educativo detallado.
+  - Se usa un prompt estructurado que guía a Gemini en la generación de contenido pedagógico.
+
+- Evaluar la calidad del contenido generado
+  - Se realiza un análisis de calidad comparando el contenido generado con:
+  - Similitud semántica usando embeddings de BERT.
+  - Consistencia detectando contradicciones.
+  - Legibilidad con la métrica Flesch-Kincaid.
+  - Terminología verificando palabras clave del glosario.
