@@ -1,7 +1,7 @@
-**Trabajo 04: Construcción de un Generador de Contenido Educativo basado en LLM**
+# **Trabajo 04: Construcción de un Generador de Contenido Educativo basado en LLM**
 
 ![image.png](https://github.com/user-attachments/assets/d6d3b96a-bdd2-4004-bf9a-0fc03303a87c)
-)
+
 
 **Grupo 6**
 
