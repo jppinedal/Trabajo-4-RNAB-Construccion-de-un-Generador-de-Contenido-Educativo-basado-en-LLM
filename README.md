@@ -15,6 +15,10 @@ Semestre 2024 - 2
 
 ---
 
+> [!NOTE]  
+> [Conoce el informe completo](https://candy-monkey-1cd.notion.site/Trabajo-04-Construcci-n-de-un-Generador-de-Contenido-Educativo-basado-en-LLM-1aa7a8b98a1980b9ac8befc7a6f69ab4#1af7a8b98a1980e5970ced46c4966c1d)
+
+
 # 1. Introducción
 
 En el contexto actual de la educación, se requiere acceso a materiales de estudio personalizados, dinámicos y adaptables a  necesidades específicas. Los modelos de lenguaje de gran escala (LLMs) ofrecen una solución innovadora para la generación de contenido educativo automatizado, permitiendo la creación de materiales como resúmenes, explicaciones, preguntas de evaluación y ejercicios interactivos.
